@@ -1,0 +1,184 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#corpoPagina{
+	width:1024px;
+	margin:0px auto 0px auto;
+	background-color:#FFF;
+	border-radius:3px;
+	border:1px solid #496077;	
+}
+#banner{
+	min-height:100px;
+	background-color:#09c;
+}
+#imgBanner{
+	margin:20px 0px 20px 20px;
+}
+#divmenu{
+	padding:1px 1px 1px 0px;
+	background-color:#CCC;
+}
+div.menu{
+	padding:0px 0px 0px 0px;
+	text-align:center;
+}
+div.menu ul{
+	margin:0px;
+	padding:0px;
+}
+div.menu ul li{
+	display:inline;
+	padding:0px 1px 0px 0px;
+}
+div.menu ul li a{
+	background-color:#038ED0;
+	color:#FFF;
+	padding:15px 5px 5px 5px;
+	text-decoration:none;
+	font-size:13px;
+	border-radius:2px;
+	display:inline-block;
+	min-width:157px;
+	height:25px;
+}
+div.menu ul li a:hover{
+    background-color: #000099;
+    text-decoration: none;
+}
+#conteudo{
+	min-height:400px;
+}
+#rodape{
+	background-color:#CCC;
+	border-radius:3px;
+	height:25px;
+	padding-top:10px;
+	padding-left:10px;
+}
+/************************************/
+.tabelaForm{
+	background-color:#EBEBEB;
+	border:solid 1px #F7F7F7;
+	border-style:inherit;
+	border-collapse:collapse;
+	border-radius:2px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-spacing:0px;
+}
+.tabelaForm tr td{
+	height:30px;
+	padding-left:5px;
+}
+.tabelaRegistros{
+	background-color:#CCC;
+	border:solid 1px #CCCCCC;
+	border-style:inherit;
+	border-collapse:collapse;
+	border-radius:2px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-spacing:0px;
+}
+.tabelaLinhaTitulo{
+	background-color:#038ED0;
+	color:#FFF;
+	font-size:12px;
+	height:35px;
+}
+.tabelaRegistros tr td{
+	padding-left:0px;
+}
+#linhaRegistro{
+	background-color:#EBEBEB;
+	font-size:12px;
+	height:26px;
+}
+#linhaRegistro td{
+	padding-left:3px;
+}
+#linhaRegistro2{
+	background-color:#E3E3E3;
+	font-size:12px;
+	height:26px;
+}
+#linhaRegistro2 td{
+	padding-left:3px;
+}
+#linhaRegistro:hover{
+	background-color:#ACACAC;
+}
+#linhaRegistro2:hover{
+	background-color:#ACACAC;
+}
+a.Registro{
+	padding-bottom:6px;
+	padding-top:6px;
+	padding-right:15px;
+	padding-left:15px;
+	display:inline-block;
+	background-color:#038ED0;
+	color:#FFF;
+	font-size:12px;
+	text-decoration:none;
+	border-radius:2px;
+	text-align:center;
+}
+a.Registro:hover{
+	background-color:#054EF5;
+}
+.textoPadrao{
+	font-size:13px;
+	border-radius:3px;
+	height:25px;
+	border:solid 1px #038ED0;
+	padding-left:3px;
+}
+.textoPadraoUP{
+	font-size:13px;
+	border-radius:3px;
+	height:22px;
+	border:solid 1px #038ED0;
+	padding-left:3px;
+	text-transform:uppercase;
+}
+.textoPadraoDestaque{
+	font-size:13px;
+	border-radius:3px;
+	height:22px;
+	font-weight:bold;
+	text-align:center;
+	border:solid 1px #038ED0;
+}
+.comboPadrao{	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	border-radius:3px;
+	height:27px;
+	cursor:pointer;
+	border:solid 1px #038ED0;
+}
+.botoes{
+	padding-bottom:6px;
+	padding-top:6px;
+	padding-right:15px;
+	padding-left:15px;
+	display:inline-block;
+	background-color:#038ED0;
+	border:none;
+	color:#FFF;
+	font-size:12px;
+	text-decoration:none;
+	border-radius:2px;
+	text-align:center;
+	cursor:pointer;
+}
+.botoes:hover
+{
+    background-color:#054EF5;
+}

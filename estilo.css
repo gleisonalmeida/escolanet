@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+#corpoPagina{
+	width:1024px;
+	margin:0px auto 0px auto;
+	background-color:#FFF;
+	border-radius:3px;
+	min-height:670px;
+	border:1px solid #496077;	
+}
+#banner{
+	min-height:100px;
+	background-color:#09c;
+}
+#imgBanner{
+	margin:20px 0px 20px 20px;
+}
+#conteudo{
+	
+}
+#divTextoIndex{
+	padding:20px;
+	float:left;
+}
+#areaLogin{
+	background-color:#EBEBEB;
+	padding:20px;
+	float:right;
+	min-height:380px;
+	width:400px;
+}
+#tabelaLogin{
+	margin:20px auto 20px auto;
+	border-radius:3px;
+	border:solid 1px #003399;
+	background-color:#CCC;
+	min-width:250px;
+}
+#tabelaLogin tr td{
+	padding:5px 5px 5px 8px;
+}
+#tabelaLoginLinhaTitulo{
+	height:30px;
+	background-color:#039;
+	color:#FFF;
+	font-weight:bold;
+}
+#rodape{
+	
+}
+.textoPadrao{
+	font-size:13px;
+	border-radius:3px;
+	height:25px;
+	border:1px solid #038ED0;
+	padding-left:3px;
+}
+.botoes{
+	padding-bottom:6px;
+	padding-top:6px;
+	padding-right:15px;
+	padding-left:15px;
+	display:inline-block;
+	background-color:#039;
+	border:none;
+	color:#FFF;
+	border-radius:2px;
+	text-align:center;
+	cursor:pointer;
+}
+a.BOTAO_AZUL{
+	padding-bottom:6px;
+	padding-top:6px;
+	padding-right:25px;
+	padding-left:25px;
+	display:inline-block;
+	background-color:#038ED0;
+	color:#FFF;
+	font-size:14px;
+	text-decoration:none;
+	border-radius:2px;
+	text-align:center;
+}
+a.BOTAO_AZUL:hover{
+	background-color:#054EF5;
+}
+a.BOTAO_VERDE{
+	padding-bottom:6px;
+	padding-top:6px;
+	padding-right:25px;
+	padding-left:25px;
+	display:inline-block;
+	background-color:#006600;
+	color:#FFF;
+	font-size:14px;
+	text-decoration:none;
+	border-radius:2px;
+	text-align:center;
+}
+a.BOTAO_VERDE:hover{
+	background-color:#003300;
+}
+
+
